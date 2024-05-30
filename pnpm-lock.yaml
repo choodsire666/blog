@@ -9,8 +9,8 @@ dependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@elog/cli':
-    specifier: ^0.14.0
-    version: 0.14.0
+    specifier: ^0.14.1
+    version: 0.14.1
   bluebird:
     specifier: ^3.7.2
     version: 3.7.2
@@ -229,13 +229,13 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@elog/cli@0.14.0:
-    resolution: {integrity: sha512-8lwPy1bksPm7/01SLHb+JBX9JaupqHp8NZzlIbKhjscpPOROaEUCjM0PhfyH+ynMD+Urc1ndXwpdFRQppyFq3w==}
+  /@elog/cli@0.14.1:
+    resolution: {integrity: sha512-swYaqCOMMEauaFuzLLb3S0SVQvJThFJ7hJpE+LOg2r2edTKQO237yHQoPnRJsLx0w3Q9PXNk1VAyzVZdYTagJA==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
-      '@elog/core': 0.14.0
-      '@elog/shared': 0.14.0
+      '@elog/core': 0.14.1
+      '@elog/shared': 0.14.1
       commander: 9.5.0
       dotenv: 16.4.5
       fs-extra: 11.2.0
@@ -252,18 +252,18 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@elog/core@0.14.0:
-    resolution: {integrity: sha512-+sHWcMzf2taq21GfqMICM5FRAfF8afALPZ8ahq6RePNHjBPQ2RIG3iqfjx9xoigAwYPxQ27WIKhPLJbTSmT5FA==}
+  /@elog/core@0.14.1:
+    resolution: {integrity: sha512-qmiBnj5RrGcFtxjDppXGvLYS78+cmKT8a/lFTgUbfbGFgW8SpfQriTXV1Pa731f/Evpxfpa29Wkz91LSgSKI7A==}
     dependencies:
-      '@elog/deploy': 0.14.0
-      '@elog/plugin-image': 0.14.0
-      '@elog/sdk-feishu': 0.14.0
-      '@elog/sdk-flowus': 0.14.0
-      '@elog/sdk-notion': 0.14.0
-      '@elog/sdk-wolai': 0.14.0
-      '@elog/sdk-yuque': 0.14.0
-      '@elog/shared': 0.14.0
-      '@elog/types': 0.14.0
+      '@elog/deploy': 0.14.1
+      '@elog/plugin-image': 0.14.1
+      '@elog/sdk-feishu': 0.14.1
+      '@elog/sdk-flowus': 0.14.1
+      '@elog/sdk-notion': 0.14.1
+      '@elog/sdk-wolai': 0.14.1
+      '@elog/sdk-yuque': 0.14.1
+      '@elog/shared': 0.14.1
+      '@elog/types': 0.14.1
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -274,15 +274,15 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@elog/deploy@0.14.0:
-    resolution: {integrity: sha512-iC5bAgd9bZyRUePSQnqQa9ALJaWhocCD7wJBrZ6uqkpI+xIqU5nxZu9UJCHET59M+BqO0mSbvYKiT/uZTu0gEg==}
+  /@elog/deploy@0.14.1:
+    resolution: {integrity: sha512-O1HLgiU6fOuwugkjusJrgvtjri22GQLi6VCZnW8tC7Z3dWOokw7y2QQ/D/JgkSvxVsMp/q7XpOTg6G2JtTAjYA==}
     dependencies:
-      '@elog/plugin-adapter': 0.14.0
-      '@elog/sdk-confluence': 0.14.0
-      '@elog/sdk-halo': 0.14.0
-      '@elog/sdk-wordpress': 0.14.0
-      '@elog/shared': 0.14.0
-      '@elog/types': 0.14.0
+      '@elog/plugin-adapter': 0.14.1
+      '@elog/sdk-confluence': 0.14.1
+      '@elog/sdk-halo': 0.14.1
+      '@elog/sdk-wordpress': 0.14.1
+      '@elog/shared': 0.14.1
+      '@elog/types': 0.14.1
       filenamify: 4.3.0
       mkdirp: 1.0.4
       transliteration: 2.3.5
@@ -290,11 +290,11 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/plugin-adapter@0.14.0:
-    resolution: {integrity: sha512-r305gbuVO74HJhm80JJSaw56DDj80WmtpPXd4yT8X5TxBgnTZqlK9TMWjE+O7pEwXyw6d0Q+H9YD7jjOxumvJQ==}
+  /@elog/plugin-adapter@0.14.1:
+    resolution: {integrity: sha512-mBMoeUbytDjXDdFtiAn0LKWD7W6chp8/R9SbFM6NPLR3hVQBq8OyY9P4bFq34aIrq8IEQNEkCbsACdUcYDkw/w==}
     dependencies:
-      '@elog/shared': 0.14.0
-      '@elog/types': 0.14.0
+      '@elog/shared': 0.14.1
+      '@elog/types': 0.14.1
       gray-matter: 4.0.3
       highlight.js: 11.9.0
       markdown-it: 13.0.2
@@ -303,11 +303,11 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/plugin-image@0.14.0:
-    resolution: {integrity: sha512-IhoKgWV8YLhQzooqCDbHvPVS8ykasaMHBAl2W8K3I+iE8N+1XwCi1RFsUcmQ6Rcb6lJdJq7GwvqSRdHu5YOi3A==}
+  /@elog/plugin-image@0.14.1:
+    resolution: {integrity: sha512-55PW0lxy855hjbwSmun0UZ2K2xFW4GRB0yTGw+wDcNtZrDoMCU6c4MsWkcDjlkBd/ats0V1f1LRjQ3EUvPCIAA==}
     dependencies:
-      '@elog/shared': 0.14.0
-      '@elog/types': 0.14.0
+      '@elog/shared': 0.14.1
+      '@elog/types': 0.14.1
       ali-oss: 6.20.0
       cos-nodejs-sdk-v5: 2.14.0
       mkdirp: 1.0.4
@@ -319,19 +319,19 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/sdk-confluence@0.14.0:
-    resolution: {integrity: sha512-HD/cQvCu+2zoQ2/ioxhDarFOY16CfXCu7pS+jhKhjPZC2edqqsk6nnomBlaMlnIIsCJWJzAxvgKn64BSAo++Iw==}
+  /@elog/sdk-confluence@0.14.1:
+    resolution: {integrity: sha512-UVAzQ54CfLPzFNfllM0NNqMX5qhWkPywDaui0S3wUv8YULbFfXd+kgiBLdLB6TYj7o86rdpIafNuPsTW+xLvrg==}
     dependencies:
-      '@elog/shared': 0.14.0
-      '@elog/types': 0.14.0
+      '@elog/shared': 0.14.1
+      '@elog/types': 0.14.1
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@elog/sdk-feishu@0.14.0:
-    resolution: {integrity: sha512-IqN1oPI814NduyqXniFN6WcJizY/84nzo4g82ME2yIqYtKNUYwgO9dR7WyucEdt2qIHgCfu0f9RU7GulvAd4MQ==}
+  /@elog/sdk-feishu@0.14.1:
+    resolution: {integrity: sha512-sYe9zjuyi+GgNRFqp7sY4cGSCimH6fvGJ/l/a+NXQ7o1q7ya14vbxXeQNJrJyFw5gi4iJlGXLS2P1nWyCKzH3A==}
     dependencies:
-      '@elog/shared': 0.14.0
+      '@elog/shared': 0.14.1
       '@feishux/api': 0.3.1
       '@feishux/doc-to-md': 0.3.1
       '@feishux/shared': 0.3.1
@@ -341,10 +341,10 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/sdk-flowus@0.14.0:
-    resolution: {integrity: sha512-J3XytEd7i2PR8esictUwQAJwrBbECxaq5sftdeZoEBR8LzcjtcUF9180JlpB16WxUzMMgqHHlx/sfR6BUyNwhQ==}
+  /@elog/sdk-flowus@0.14.1:
+    resolution: {integrity: sha512-Tw2SvPzIMI+gn9z3iFdD02ZsD65LooYo+Ywuh4YfiPdX00dPRzoSSOFnrdd25X3Ye5nzo7Dvnp8XW1rSROElOw==}
     dependencies:
-      '@elog/shared': 0.14.0
+      '@elog/shared': 0.14.1
       '@flowusx/flowus-client': 0.0.5-beta.4
       '@flowusx/flowus-to-md': 0.0.5-beta.5
       tiny-async-pool: 1.3.0
@@ -352,22 +352,22 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/sdk-halo@0.14.0:
-    resolution: {integrity: sha512-gKXEw+EsX+1HiRanQKyqSw2Epz6fulNJ9n4mmQs9Es+7/Jo9QdEy6bPtGt57tnG8VLQYmlCPNwyjXr+IEp/7cA==}
+  /@elog/sdk-halo@0.14.1:
+    resolution: {integrity: sha512-Xa4ZlCnfr3sc4N4qi226aXUaxY1TBbszuuneG8hl5YThiKYWedKWl1c/9qNUk+p4ue6+my7eeauQ+L1jHp7fzQ==}
     dependencies:
-      '@elog/shared': 0.14.0
-      '@elog/types': 0.14.0
+      '@elog/shared': 0.14.1
+      '@elog/types': 0.14.1
       '@halo-dev/api-client': 2.10.0
       formstream: 1.4.0
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@elog/sdk-notion@0.14.0:
-    resolution: {integrity: sha512-qmuuzgOS7j9KH3PUHDF1SWi0517PRWABGEE6JHROiM+UiXCkTdsu+Ar/FPFTJgxzK9vwAgL+9TccTN5edd06gg==}
+  /@elog/sdk-notion@0.14.1:
+    resolution: {integrity: sha512-233whaOYpgns413L6ETZJZEtEjCu0UhjayWYwsxIl5mB7gyMsao3B6djYHqXjJk3u4m54rOmExKRtrhkLMe1oQ==}
     dependencies:
-      '@elog/shared': 0.14.0
-      '@elog/types': 0.14.0
+      '@elog/shared': 0.14.1
+      '@elog/types': 0.14.1
       '@notionhq/client': 2.2.15
       notion-to-md: 3.1.1
       tiny-async-pool: 1.3.0
@@ -376,33 +376,33 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/sdk-wolai@0.14.0:
-    resolution: {integrity: sha512-KSC2SaLOVWd1eMiIfZaxrGgrjhP4rablWzqCpiAjQ8ZZvL61Lr2PVKQIdL3in46m2MhMw1wKh6CYeTSRT4+kEQ==}
+  /@elog/sdk-wolai@0.14.1:
+    resolution: {integrity: sha512-slNONmC96Uemz2f+ZFfyzEogaSka6tjN6CnxAKd/zgZ8t3shdqcNZBvIcTlGevQ8FIlSDGVPZDs0njPuA5p1sw==}
     dependencies:
-      '@elog/shared': 0.14.0
-      '@elog/types': 0.14.0
+      '@elog/shared': 0.14.1
+      '@elog/types': 0.14.1
       front-matter: 4.0.2
       tiny-async-pool: 1.3.0
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@elog/sdk-wordpress@0.14.0:
-    resolution: {integrity: sha512-JR9zGwKDXjmhQSScVZtjn6WtwnG+x52xctLTbJ3BBY8I1/G0NyOVIKoysaYUmFRtcNgvO2rL7rzKL3Ff2WwXOw==}
+  /@elog/sdk-wordpress@0.14.1:
+    resolution: {integrity: sha512-sTAOHmwG+WYaotKXH/6WZOFfHSTzqQvA5lbqAb/mlSUqNqaY6qU4zPhqr012COIfR9fixEmI/lP5TT1gTGkowA==}
     dependencies:
-      '@elog/shared': 0.14.0
-      '@elog/types': 0.14.0
+      '@elog/shared': 0.14.1
+      '@elog/types': 0.14.1
       '@types/wpapi': 1.1.4
       wpapi: 1.2.2
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@elog/sdk-yuque@0.14.0:
-    resolution: {integrity: sha512-daSe4/Wi80Pqd4t/Kb8mVso2HolJMINqhUnjV4zifKn9gAFb2IBxVbmtHmvgC2nY4dxgCdpU5s104M6hYBVrkA==}
+  /@elog/sdk-yuque@0.14.1:
+    resolution: {integrity: sha512-IjSyLmfulTyIDEqO1YfQmdOsE5tZIVq9l7FdGsKAmR4SpYkdL01gfoeTCxBRgI1dX8p2iDM8mggJ3Y3Jk8RCjw==}
     dependencies:
-      '@elog/shared': 0.14.0
-      '@elog/types': 0.14.0
+      '@elog/shared': 0.14.1
+      '@elog/types': 0.14.1
       front-matter: 4.0.2
       jsdom: 21.1.2
       jsencrypt-node: 1.0.4
@@ -418,8 +418,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@elog/shared@0.14.0:
-    resolution: {integrity: sha512-IxJTFs1JUoVfJiwFDE5p6Xf9DdvY3rWCOLiMAHu+gfF/gA6043THOSbcoxfMYuMueMpZLbdvyI9WEWL24t2NBA==}
+  /@elog/shared@0.14.1:
+    resolution: {integrity: sha512-p6puwqK4a8OldwPxEBJHlVudw/vk1EyclaYbFiw+IxDHuJe7eGJp4gbE6VdXY66A86qXHOeIUpi/3kaYs/xxaQ==}
     dependencies:
       chalk: 4.1.2
       dayjs: 1.11.11
@@ -432,8 +432,8 @@ packages:
       - supports-color
     dev: false
 
-  /@elog/types@0.14.0:
-    resolution: {integrity: sha512-KPoD2ZU1k9kPuyLO5QoKywvnZjCSRyEP5LwwXIKX93yHLqcAG+gGQwPl3pLlLPHQC+SCRxTMywVOe6BAT7NmHQ==}
+  /@elog/types@0.14.1:
+    resolution: {integrity: sha512-6yJtvBYPlLma2MU09WobGsKbo21prRiEzhLXEd3hDoaUQrLB6o1zX3ONAIjgcYXXZ5NXnvR9RsTi1SLmeBIZmw==}
     dev: false
 
   /@fastify/busboy@2.1.1:
